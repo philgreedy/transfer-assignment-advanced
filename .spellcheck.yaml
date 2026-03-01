@@ -1,6 +1,10 @@
 spellchecker: aspell
 matrix:
 - name: Text Files
+  dictionary:
+    encoding: utf-8
+    wordlists:
+      - .wordlist.txt
   sources:
   - "**/*.txt"
   - "**/*.md"
